@@ -1,0 +1,138 @@
+/* ================================================= */
+/* 1. STYLES UMUM */
+/* ================================================= */
+body {
+    background-color: #a33333; 
+}
+
+
+/* ================================================= */
+/* 2. STYLES KHUSUS SECTION 1 */
+/* ================================================= */
+
+.section-one.desktop {
+    background-color: #a33333;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1484px;
+    min-height: 1054px;
+    position: relative;
+}
+
+.section-one .text-on-a-path {
+    position: absolute;
+    top: -241px;
+    left: -494px;
+    width: 706px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.section-one .jota {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 706px;
+    height: 440px;
+    aspect-ratio: 1.6;
+    object-fit: cover;
+}
+
+.section-one .diogo-jota-adalah { 
+    position: absolute;
+    top: 512px;
+    left: 5299px; 
+    width: 18177px; 
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.section-one .text-wrapper {
+    position: absolute;
+    top: 40px;
+    left: 49px;
+    width: 304px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #fa0707;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.section-one .div {
+    position: absolute;
+    top: 459px;
+    left: 20px;
+    width: 567px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.section-one .merah {
+    position: absolute;
+    top: 0;
+    left: 708px;
+    width: 776px;
+    height: 440px;
+    aspect-ratio: 1.78;
+    object-fit: cover;
+}
+
+.section-one .selain-dikenal {
+    position: absolute;
+    top: 459px;
+    left: 640px;
+    width: 746px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+/* ================================================= */
+/* 3. STYLES KHUSUS SECTION 2 */
+/* ================================================= */
+
+.section-two.desktop {
+    background-color: #a33333;
+    width: 100%;
+    min-width: 1484px;
+    min-height: 1054px;
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+}
+
+.section-two .bang-jota {
+    width: 1484px;
+    height: 817px;
+    aspect-ratio: 1.78;
+    object-fit: cover;
+}
+
+.section-two .text-wrapper {
+    margin-left: 214px;
+    width: 996px;
+    height: 147px;
+    font-family: "Island Moments-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
